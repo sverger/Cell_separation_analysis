@@ -1,0 +1,14 @@
+name: cell-sep-env
+channels:
+  - defaults
+dependencies:
+  - python=2.7
+  - ipython
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - nose
+  - pillow
+  - pip:
+      - pycircstat
