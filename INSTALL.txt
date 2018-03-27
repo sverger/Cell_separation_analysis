@@ -1,7 +1,7 @@
 Installation procedure for the Cell Separation Image Ananlysis Pipeline
 #######################################################################
 
-Following this guide help you will install all the dependencies required for the script and ensure that the script will run properly.  
+Following this guide will help you install all the dependencies required for the script and ensure that the script will run properly.  
 
 
 Download and install Miniconda
