@@ -17,7 +17,7 @@
 
 	Links:
         DOI:...
-        Github...
+        Github: https://github.com/sverger/Cell_separation_analysis
 
 Description:
 ============                                                                
@@ -34,10 +34,10 @@ Description:
 # This script was developed and run in the tissuelab environment of the       #
 # OpenAleaLab platform (github.com/VirtualPlants/tissuelab, Cerutti G et al., #
 # (2017). Front Plant Sci 8:353. doi:10.3389/fpls.2017.00353).                #
-# It is designed to run with python 2.7x and has been tested on Linux (14.04) # 
-# and Mac (OSX...?)                                                           #
+# It is designed to run with python 2.7x and has been tested on Linux         #
+# (Ubuntu 14.04) and Mac (OSX...?).                                           #
 
-Prerequist: (e.g. in ImageJ)
+Prerequist: (e.g. using ImageJ)
 ============================
 # For each image:
 # - From a raw confocal Z-stack, make a maximal intensity Z-projection to     # 
@@ -110,7 +110,7 @@ Settings:
 
 running the script:
 ===================
-# In a terminal run $ python.                                                 #
+# In a terminal run $ python or $ ipython.                                    #
 # In the python console, type $ %run Cell_separation_analysis.py              #
 #                                                                             #
 # This should run the script, write some output in the python console and     #
