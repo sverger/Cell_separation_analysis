@@ -72,7 +72,7 @@ You can run the test samples in python in the newly installed environment
 
 This will launch ipython.
 
-- Type $ %run Cell_separation_analysis.py
+- In the python console, type $ %run Cell_separation_analysis.py
  
-This should run the script, output ... and create images...
+This should run the script, output and create images.
 
