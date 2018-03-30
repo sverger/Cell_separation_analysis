@@ -31,11 +31,12 @@ Description:
 # signal from the cell separation background has to be defined manually.      #
 # For more details see Verger et al. (2018). The tension-adhesion feedback    #
 # loop in plant epidermis.                                                    #
-# This script was developed and run in the tissuelab environment of the       #
-# OpenAleaLab platform (github.com/VirtualPlants/tissuelab, Cerutti G et al., #
-# (2017). Front Plant Sci 8:353. doi:10.3389/fpls.2017.00353).                #
+# This script was developed on Linux (Ubuntu 14.04) in the tissuelab          #
+# environment of the OpenAleaLab platform (github.com/VirtualPlants/tissuelab,#
+# Cerutti G et al., (2017). FrontPlantSci 8:353. doi:10.3389/fpls.2017.00353).#
 # It is designed to run with python 2.7x and has been tested on Linux         #
-# (Ubuntu 14.04) and Mac (OSX...?).                                           #
+# (Ubuntu 14.04), Mac (OSX...?) and windows (...?), using the "recommended"   #
+# install with miniconda (see "install" below).                               #
 
 Prerequist: (e.g. using ImageJ)
 ============================
