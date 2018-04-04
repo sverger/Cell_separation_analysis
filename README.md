@@ -1,7 +1,7 @@
 
         	
 Cell Separation Image Ananlysis Pipeline
-########################################
+========================================
 
 Copyright 2018 INRA - CNRS
 File author(s): Stéphane Verger <stephane.verger@ens-lyon.fr>
@@ -14,13 +14,15 @@ http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html
 Please cite the original publication:
 Verger et al. (2018). The tension-adhesion feedback loop in plant epidermis.
 
-	Links:
-        DOI:...
-        Github: https://github.com/sverger/Cell_separation_analysis
+Links:
+DOI:...
+Github: https://github.com/sverger/Cell_separation_analysis
+
 
 Description:
 ============                                                                
 This python script allows the semi-automatic analysis of cell separations in 2D images, and can further perform comparaisons of mean cell separation area between two conditions or genotypes, as well as the analysis of cell separation orientation and anisotropy of multiple conditions or genotypes. This is a "semi-automatic" pipeline, because the analysis requires a    preliminary manual step that need to be be performed for each image before running the script: an appropriate threshold properly separating the cell signal from the cell separation background has to be defined manually. For more details see Verger et al. (2018). The tension-adhesion feedback loop in plant epidermis. This script was developed on Linux (Ubuntu 14.04) in the tissuelab environment of the OpenAleaLab platform (github.com/VirtualPlants/tissuelab, Cerutti G et al., (2017). FrontPlantSci 8:353. doi:10.3389/fpls.2017.00353). It is designed to run with python 2.7x and has been tested on Linux (Ubuntu 14.04), Mac (OSX...?) and windows (...?), using the "recommended" install with miniconda (see "install" below).
+
 
 Prerequist: (e.g. using ImageJ)
 ============================
@@ -32,6 +34,7 @@ For each image:
 - Depending on the quality of the images it may be difficult or impossible to segment the cell separtations based on a threshold. If some of your images are in this situation, you may exclude them from your analysis. If most of your images are in this situation, this image analysis pipeline is not appropriate for your case.
 - Then save the images in 8 bit .tif or .jpg and add "_xxxthld" at the end of the name (e.g. "sample_1_055thld.tif). The value before thld is the threshold value that will be used for the image segmentation (It has to be 3 digits).
 - Then the file arborescence has to be organised as such: A "main" directory (updir), containing subdirectories for each condition/mutant, each containing all the images corresponding to the given condition/mutant.
+
 
 Install:
 ========
@@ -60,7 +63,6 @@ Designed to run on linux based operating systems.
 Settings:
 =========
 - Download/open the script "Cell_separation_analysis.py"
-
 - Before running the script, define the paramenters in the section called "Parameters".
 - Define a directory containing all the data to analyse and compare (updir).
 - Define the pixel size of your image in micrometer (pixel_size).
@@ -73,10 +75,12 @@ Settings:
 
 running the script:
 ===================
-In a terminal run 
+In a terminal run
+
 	$ python or $ ipython.
 
-In the python console, type 
+In the python console, type
+
 	$ %run Cell_separation_analysis.py
 
 This should run the script, write some output in the python console and create the output images and files.
