@@ -5,18 +5,18 @@ Cell Separation Image Ananlysis Pipeline
 
 Copyright 2018 INRA - CNRS
 
-File author(s): Stéphane Verger <stephane.verger@ens-lyon.fr>
+File author(s): Stéphane Verger <stephane.verger@ens-lyon.fr>\
 File contributor(s): Guillaume Cerutti <guillaume.cerutti@inria.fr>
 
-Distributed under the Cecill-C License.
-See accompanying file LICENSE.txt or copy at
+Distributed under the Cecill-C License.\
+See accompanying file LICENSE.txt or copy at\
 http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html
        
 Please cite the original publication:
 Verger et al. (2018). The tension-adhesion feedback loop in plant epidermis.
 
 Links:
-DOI:...
+DOI:...\
 Github: https://github.com/sverger/Cell_separation_analysis
 
 
@@ -64,7 +64,7 @@ Designed to run on linux based operating systems.
 Settings:
 =========
 - Download/open the script "Cell_separation_analysis.py"
-- Before running the script, define the paramenters in the section called "Parameters".
+- Before running the script, define the paramenters in the section of the script called "Parameters".
 - Define a directory containing all the data to analyse and compare (updir).
 - Define the pixel size of your image in micrometer (pixel_size).
 - Define min and max area of crack to eliminate areas that are too small (min), and/or the background (max).
@@ -78,11 +78,15 @@ running the script:
 ===================
 In a terminal run
 
-	$ python or $ ipython.
+	python 
+or
+
+	ipython.
+depending on your installation.
 
 In the python console, type
 
-	$ %run Cell_separation_analysis.py
+	%run Cell_separation_analysis.py
 
 This should run the script, write some output in the python console and create the output images and files.
 
