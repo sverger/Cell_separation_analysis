@@ -81,7 +81,7 @@ In a terminal run
 	python 
 or
 
-	ipython.
+	ipython
 depending on your installation.
 
 In the python console, type
