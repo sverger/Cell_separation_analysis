@@ -76,9 +76,9 @@ updir = './Test_files/minthreshold/'
 pixel_size = 0.363636  # 0.363636um square is the pixel size
 min_area_of_crack = 100  # Size in pixels
 max_area_of_crack = 100000
-thld_type = 'max'
-Global_Output_Size = True
-Global_Polarhist_Output = True
+thld_type = 'min'
+Global_Output_Size = False
+Global_Polarhist_Output = False
 # Parameters==================================================================#
 
 
