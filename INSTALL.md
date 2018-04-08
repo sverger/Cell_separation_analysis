@@ -1,11 +1,10 @@
-Installation procedure for the Cell Separation Image Ananlysis Pipeline
-=
+# Installation procedure for the Cell Separation Image Ananlysis Pipeline
+
 
 Following this guide will help you install all the dependencies required for the script and ensure that the script will run properly.  
 
 
-# Download and install Miniconda
-
+## Download and install Miniconda
 
 - Download the miniconda installer from the official website repo.continuum.io\
 	LINUX: https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh \
@@ -42,8 +41,8 @@ View the available environments :
 	conda env list
 
 
-Create and activate a conda environment to run the script
-=========================================================
+## Create and activate a conda environment to run the script
+
 - Download and extract the "cell_separation_analysis" repository.
 
 In a terminal:
@@ -61,23 +60,23 @@ Where you replace "path/to/" by the actual path that leads you the folder "/cell
 		source activate cell-sep-env
 
 
-Check your installation
-=======================
+## Check your installation
+
 You can run the test samples in ipython in the newly installed environment
 
 - In a terminal run:
 
-		ipython
+      ipython
 
 This will launch ipython.
 
 - in ipython navigate to the "/cell_separation_analysis" folder that you have downloaded:
 
-		cd path/to/cell_separation_analysis/
+      cd path/to/cell_separation_analysis/
 
 - In the python console, type:
 
-		%run Cell_separation_analysis.py
+      %run Cell_separation_analysis.py
  
 This should run the script, output and create images.
 
