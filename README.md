@@ -1,7 +1,6 @@
 
         	
-Cell Separation Image Ananlysis Pipeline
-========================================
+# Cell Separation Image Ananlysis Pipeline
 
 Copyright 2018 INRA - CNRS
 
@@ -20,13 +19,13 @@ DOI:...\
 Github: https://github.com/sverger/Cell_separation_analysis
 
 
-Description:
-============                                                                
+## Description:
+                                                               
 This python script allows the semi-automatic analysis of cell separations in 2D images, and can further perform comparaisons of mean cell separation area between two conditions or genotypes, as well as the analysis of cell separation orientation and anisotropy of multiple conditions or genotypes. This is a "semi-automatic" pipeline, because the analysis requires a    preliminary manual step that needs to be be performed for each image before running the script: an appropriate threshold properly separating the cell signal from the cell separation background has to be defined manually. For more details see Verger et al. (2018). The tension-adhesion feedback loop in plant epidermis. This script was developed on Linux (Ubuntu 14.04) in the tissuelab environment of the OpenAleaLab platform (github.com/VirtualPlants/tissuelab, Cerutti G et al., (2017). FrontPlantSci 8:353. doi:10.3389/fpls.2017.00353). It is designed to run with python 2.7x and has been tested on Linux (Ubuntu 14.04), Mac (OSX...?) and windows (...?), using the "recommended" install with miniconda (see "install" below).
 
 
-Prerequist: (e.g. using ImageJ)
-============================
+## Prerequist: (e.g. using ImageJ)
+
 For each image:
 - From a raw confocal Z-stack, make a maximal intensity Z-projection to obtain a 2D image.
 - If necessary enhance the contrasts.
@@ -37,8 +36,8 @@ For each image:
 - Then the file arborescence has to be organised as such: A "main" directory (updir), containing subdirectories for each condition/mutant, each containing all the images corresponding to the given condition/mutant.
 
 
-Install:
-========
+## Install:
+
 You can either:
 - Directly run the script if your python environment already has all the required dependencies (list below).
 
@@ -47,8 +46,8 @@ You can either:
 - (Recommended) Install miniconda and create a conda environment to run the script. For this, follow the instruction in the INSTALL.txt file.
 
 
-Dependencies:
-=============
+## Dependencies:
+
 Designed to run on linux based operating systems.
 - Python 2.7x  		https://www.python.org/
 - Python modules:
@@ -61,8 +60,8 @@ Designed to run on linux based operating systems.
     - scipy		https://www.scipy.org/
 
 
-Settings:
-=========
+## Settings:
+
 - Download/open the script "Cell_separation_analysis.py"
 - Before running the script, define the paramenters in the section of the script called "Parameters".
 - Define a directory containing all the data to analyse and compare (updir).
@@ -74,25 +73,25 @@ Settings:
 - Save the file to save the new parameters.
 
 
-running the script:
-===================
+## running the script:
+
 In a terminal run
 
-	python 
+    python 
 or
 
-	ipython
+    ipython
 depending on your installation.
 
 In the python console, type
 
-	%run Cell_separation_analysis.py
+    %run Cell_separation_analysis.py
 
 This should run the script, write some output in the python console and create the output images and files.
 
 
-Output:
-=======
+## Output:
+
 - For each image, a .csv file is created containing for each segmented cell separation, the label number, center position, area in pixels and um square, the principal angle (orientation of the separation), the anisotropy, the eigen values and vectors and the standard deviations.
 - Also for each image, an inverted version of the image, overlaid with the segmented areas as well as a representation of the anisotropy and principal angle for each area, is saved as a vectorial .pdf.
 - Finally, for each image, a polar histogram representing the distribution of cell separation orientation in the image is created and saved as a vectorial .pdf.
