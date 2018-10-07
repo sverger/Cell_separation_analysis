@@ -11,17 +11,19 @@ Distributed under the Cecill-C License.\
 See accompanying file LICENSE.txt or copy at\
 http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html
        
-Please cite the original publication:
-Verger et al. (2018). The tension-adhesion feedback loop in plant epidermis.
+Please cite the original publications:
+- Verger, S., Long, Y., Boudaoud, A., and Hamant, O. (2018). A tension-adhesion feedback loop in plant epidermis. eLife, 7, e34460.
+https://elifesciences.org/articles/34460
 
-Links:
-DOI:...\
+- Verger, S., Cerutti, G. and Hamant, O. (2018). An Image Analysis Pipeline to Quantify Emerging Cracks in Materials or Adhesion Defects in Living Tissues. Bio-protocol 8(19): e3036. DOI: 10.21769/BioProtoc.3036.
+https://bio-protocol.org/e3036
+
 Github: https://github.com/sverger/Cell_separation_analysis
 
 
 ## Description:
                                                                
-This python script allows the semi-automatic analysis of cell separations in 2D images, and can further perform comparaisons of mean cell separation area between two conditions or genotypes, as well as the analysis of cell separation orientation and anisotropy of multiple conditions or genotypes. This is a "semi-automatic" pipeline, because the analysis requires a    preliminary manual step that needs to be be performed for each image before running the script: an appropriate threshold properly separating the cell signal from the cell separation background has to be defined manually. For more details see Verger et al. (2018). The tension-adhesion feedback loop in plant epidermis. This script was developed on Linux (Ubuntu 14.04) in the tissuelab environment of the OpenAleaLab platform (github.com/VirtualPlants/tissuelab, Cerutti G et al., (2017). FrontPlantSci 8:353. doi:10.3389/fpls.2017.00353). It is designed to run with python 2.7x and has been tested on Linux (Ubuntu 14.04), Mac (OSX...?) and windows (...?), using the "recommended" install with miniconda (see "install" below).
+This python script allows the semi-automatic analysis of cell separations in 2D images, and can further perform comparaisons of mean cell separation area between two conditions or genotypes, as well as the analysis of cell separation orientation and anisotropy of multiple conditions or genotypes. This is a "semi-automatic" pipeline, because the analysis requires a    preliminary manual step that needs to be be performed for each image before running the script: an appropriate threshold properly separating the cell signal from the cell separation background has to be defined manually. For more details see https://bio-protocol.org/e3036 and https://elifesciences.org/articles/34460. This script was developed on Linux (Ubuntu 14.04) in the tissuelab environment of the OpenAleaLab platform (github.com/VirtualPlants/tissuelab, Cerutti G et al., (2017). FrontPlantSci 8:353. doi:10.3389/fpls.2017.00353). It is designed to run with python 2.7x and has been tested on Linux (Ubuntu 14.04) using the "recommended" install with miniconda (see "install" below).
 
 
 ## Prerequist: (e.g. using ImageJ)
