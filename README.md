@@ -4,7 +4,7 @@
 
 Copyright 2018 INRA - CNRS
 
-File author(s): Stéphane Verger <stephane.verger@ens-lyon.fr>\
+File author(s): Stéphane Verger <stephane.verger@slu.se>\
 File contributor(s): Guillaume Cerutti <guillaume.cerutti@inria.fr>
 
 Distributed under the Cecill-C License.\
