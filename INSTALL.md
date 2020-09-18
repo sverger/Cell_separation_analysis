@@ -35,7 +35,7 @@ Following this guide will help you install all the dependencies required for the
 Conda tips:\
 Get out of the current conda environment : 
 
-	source deactivate
+	conda deactivate
 View the available environments : 
 
 	conda env list
