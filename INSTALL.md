@@ -57,7 +57,7 @@ Where you replace "path/to/" by the actual path that leads you the folder "/cell
 
 - Activate the environment:
 
-		source activate cell-sep-env
+		conda activate cell-sep-env
 
 
 ## Check your installation
